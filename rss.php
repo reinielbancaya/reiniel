@@ -8,7 +8,7 @@ foreach ($content as $data) {
 
     $username = $data->getElementsByTagName("username")->item(0)->nodeValue;
     $email = $data->getElementsByTagName("email")->item(0)->nodeValue;
-    $address = $data->getElementsByTagName("address")->item(0)->nodeValue;
+    $password = $data->getElementsByTagName("password")->item(0)->nodeValue;
 
     echo "
     <ul>
