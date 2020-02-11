@@ -1,6 +1,6 @@
 <?php
 header("Content-type: text/xml");
-
+ 
 $db_username = 'admin';
 $db_password = 'root1234';
 $db_hostname = 'dbrojasdev.cjw42bnplsor.us-east-1.rds.amazonaws.com';
